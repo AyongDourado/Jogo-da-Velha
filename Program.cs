@@ -4,23 +4,7 @@ jogadas representadas por "X" e "O" e faça a verficação se algum jogador venc
 Caso seja empate, apresente o resultado na tela. Possilibilite que o jogo seja reinicializado sem a necessidade de reiniciar o jogo. 
 
 Desafio extra, pode valer por alguma atividade futura: Faça a implementação de um jogo contra o computador. Faça o possível para evitar que o jogador vença do computador. 
-Para facilitar, faça com que o computador inicie jogando.
-
-Prazo de entrega: 24/04
-Forma e envio: Enviar pelo chat o link do github */
-
-
-// Verificar se há uma linha, coluna ou diagonal que os valores são iguais, a cada jogada a partir da 3º até a última. Talvez seja melhor um método pra isso
-// Matriz 3x3, preenchida com "  "
-// Linha a, b ou c
-// Coluna 1, 2 ou 3
-// Testar se a posição da jogada é válida. Dá pra usar um if
-// Dá pra passar a posição e a jogada como parâmetro. 
-// Caso a posição não seja válida, solicitar ao jogador repetir a jogada
-// Após cada jogada, apresente o tabuleiro com as jogadas representadas por "X" e "O"
-// Em caso de empate, apresente o resultado na tela.
-//Possilibilite que o jogo seja reinicializado sem a necessidade de reiniciar o jogo.
-
+Para facilitar, faça com que o computador inicie jogando. */
 
 
 using System.Xml;
@@ -65,7 +49,6 @@ namespace JogoDaVelha
             {
                 Console.WriteLine("   JOGO DA VELHA");
 
-                //Console.WriteLine("\nTabuleiro atual:");
                 Console.WriteLine();
                 for (int i = 0; i < 3; i++)
                 {
